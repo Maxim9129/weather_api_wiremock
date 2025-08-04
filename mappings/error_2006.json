@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/v1/current.json",
+    "queryParameters": {
+      "key": { "equalTo": "invalid" }
+    }
+  },
+  "response": {
+    "status": 401,
+    "bodyFileName": "error_2006-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/invalid-path"
+  },
+  "response": {
+    "status": 400,
+    "bodyFileName": "error_1005-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

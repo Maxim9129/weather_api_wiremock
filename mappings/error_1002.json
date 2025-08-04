@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/v1/current.json"
+  },
+  "response": {
+    "status": 401,
+    "bodyFileName": "error_1002-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "location": {
+    "name": "Tokyo",
+    "region": "Tokyo",
+    "country": "Japan",
+    "lat": 35.6895,
+    "lon": 139.6917,
+    "tz_id": "Asia/Tokyo",
+    "localtime_epoch": 1754068406,
+    "localtime": "2025-08-02 02:13"
+  },
+  "current": {
+    "last_updated_epoch": 1754067600,
+    "last_updated": "2025-08-02 02:00",
+    "temp_c": 26.2,
+    "temp_f": 79.2,
+    "is_day": 0,
+    "condition": {
+      "text": "Light rain shower",
+      "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png",
+      "code": 1240
+    },
+    "wind_mph": 22.1,
+    "wind_kph": 35.6,
+    "wind_degree": 348,
+    "wind_dir": "NNW",
+    "pressure_mb": 995.0,
+    "pressure_in": 29.38,
+    "precip_mm": 0.4,
+    "precip_in": 0.02,
+    "humidity": 89,
+    "cloud": 75,
+    "feelslike_c": 28.4,
+    "feelslike_f": 83.1,
+    "windchill_c": 27.5,
+    "windchill_f": 81.5,
+    "heatindex_c": 30.5,
+    "heatindex_f": 86.9,
+    "dewpoint_c": 22.6,
+    "dewpoint_f": 72.6,
+    "vis_km": 8.0,
+    "vis_miles": 4.0,
+    "uv": 0.0,
+    "gust_mph": 31.6,
+    "gust_kph": 50.8,
+    "air_quality": {
+      "co": 288.6,
+      "no2": 32.19,
+      "o3": 27.0,
+      "so2": 14.245,
+      "pm2_5": 12.95,
+      "pm10": 14.245,
+      "us-epa-index": 1,
+      "gb-defra-index": 2
+    },
+    "short_rad": 0,
+    "diff_rad": 0,
+    "dni": 0,
+    "gti": 0
+  }
+}

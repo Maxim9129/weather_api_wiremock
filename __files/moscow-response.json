@@ -1,0 +1,61 @@
+{
+  "location": {
+    "name": "Moscow",
+    "region": "Moscow City",
+    "country": "Russia",
+    "lat": 55.7522,
+    "lon": 37.6156,
+    "tz_id": "Europe/Moscow",
+    "localtime_epoch": 1754235115,
+    "localtime": "2025-08-03 18:31"
+  },
+  "current": {
+    "last_updated_epoch": 1754235000,
+    "last_updated": "2025-08-03 18:30",
+    "temp_c": 26.1,
+    "temp_f": 79.0,
+    "is_day": 1,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 6.9,
+    "wind_kph": 11.2,
+    "wind_degree": 32,
+    "wind_dir": "NNE",
+    "pressure_mb": 1018.0,
+    "pressure_in": 30.06,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 54,
+    "cloud": 0,
+    "feelslike_c": 27.3,
+    "feelslike_f": 81.2,
+    "windchill_c": 24.2,
+    "windchill_f": 75.5,
+    "heatindex_c": 25.6,
+    "heatindex_f": 78.1,
+    "dewpoint_c": 16.1,
+    "dewpoint_f": 61.0,
+    "vis_km": 10.0,
+    "vis_miles": 6.0,
+    "uv": 0.7,
+    "gust_mph": 9.6,
+    "gust_kph": 15.5,
+    "air_quality": {
+      "co": 571.65,
+      "no2": 52.91,
+      "o3": 100.0,
+      "so2": 69.375,
+      "pm2_5": 27.935,
+      "pm10": 35.89,
+      "us-epa-index": 2,
+      "gb-defra-index": 3
+    },
+    "short_rad": 369.44,
+    "diff_rad": 123.87,
+    "dni": 360.93,
+    "gti": 110.84
+  }
+}

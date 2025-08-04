@@ -1,0 +1,26 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.21'
+    implementation 'org.slf4j:slf4j-api:2.0.13'
+    runtimeOnly 'ch.qos.logback:logback-classic:1.4.14'
+    testImplementation 'org.spockframework:spock-core:2.3-groovy-3.0'
+    testImplementation 'com.github.tomakehurst:wiremock-jre8:3.0.1'
+    testImplementation 'org.apache.httpcomponents.client5:httpclient5:5.4.4'
+    testImplementation 'org.apache.httpcomponents.client5:httpclient5-fluent:5.4.4'
+
+}
+
+test {
+    useJUnitPlatform()
+}
